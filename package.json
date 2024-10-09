@@ -1,0 +1,22 @@
+{
+  "name": "infoeste2024-testes",
+  "version": "1.0.0",
+  "description": "Repositório criado para ministrar aulas no curso de Introdução aos Testes Automatizados: Desvendando o Poder da Automação na Infoeste 2024",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "npm run test:unit && npm run test:integration --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-vasconcelos/infoeste2024-testes.git"
+  },
+  "author": "vinicius-vasconcelos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-vasconcelos/infoeste2024-testes/issues"
+  },
+  "homepage": "https://github.com/vinicius-vasconcelos/infoeste2024-testes#readme",
+  "dependencies": {
+    "express": "^4.21.1"
+  }
+}
