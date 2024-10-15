@@ -22,11 +22,13 @@
   },
   "homepage": "https://github.com/vinicius-vasconcelos/infoeste2024-testes#readme",
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mysql2": "^3.11.3"
   },
   "devDependencies": {
     "chai": "4.3.6",
     "chai-http": "4.3.0",
+    "dotenv": "^16.4.5",
     "mocha": "10.1.0",
     "nodemon": "3.1.7",
     "nyc": "15.1.0",
