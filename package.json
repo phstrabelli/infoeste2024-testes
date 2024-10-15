@@ -25,6 +25,11 @@
     "express": "^4.21.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
+    "chai": "4.3.6",
+    "chai-http": "4.3.0",
+    "mocha": "10.1.0",
+    "nodemon": "3.1.7",
+    "nyc": "15.1.0",
+    "sinon": "14.0.1"
   }
 }
