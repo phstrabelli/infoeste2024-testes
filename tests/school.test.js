@@ -27,12 +27,10 @@ describe('Teste na função isApproved:', () => {
     expect(result).to.be.true;
   });
 
-
   it('deve retornar false ao passar notas negativas', () => {
     const result = isApproved(-1, -2);
     expect(result).to.be.false;
   });
-
 
   it('deve retornar false ao passar um número e um caractere', () => {
     const result = isApproved(10, 'A');

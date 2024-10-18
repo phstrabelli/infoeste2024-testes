@@ -1,12 +1,11 @@
 import { expect } from 'chai';
 import { evaluateStudent } from '../src/school2.js';
 
-describe.only('Teste na função evaluateStudent:', () => {
+describe('Teste na função evaluateStudent:', () => {
   it('deve retornar "Invalid name" para um nome com menos de 3 caracteres', () => {
     const result = evaluateStudent('Vi', 6.5, 6.5);
     expect(result).to.equal('Invalid name');
-  });
-  
+  }); 
   
   it('deve retornar "Invalid grade" quando a 1° nota é diferente de um número', () => {
     const result = evaluateStudent('Vinicius', '6', 6.5);
