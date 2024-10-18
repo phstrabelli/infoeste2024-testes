@@ -8,16 +8,16 @@ Curso introdutório que visa principalmente aumentar o leque de conhecimento das
 
 ### Conteúdo programático
 
-**1° Dia**:
+- **1° Dia**: _(branch -> class-1)_
   - Boas-vindas e apresentação do curso;
   - Conceitos de testes automatizados;
   - Introdução ao JavaScript para testes;
   - Configuração do ambiente de testes.
-**2° Dia**:
+- **2° Dia**: _(branch -> class-2)_
   - Entendendo a API a ser testada;
   - Conceitos de testes automatizados para API;
   - Escrevendo testes unitários.
-**3° Dia**:
+- **3° Dia**: _(branch -> class-3)_
   - Conceitos de testes automatizados para API (continuação);
   - Escrevendo testes de integração;
   - Outros conceitos importantes.
