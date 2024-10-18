@@ -1,59 +1,83 @@
-# INFOESTE 2024
+# INFOESTE 2024 🚀
 
-Repositório criado para ministrar aulas no curso de *Introdução aos Testes Automatizados: Desvendando o Poder da Automação* na Infoeste 2024.
+Repositório para as aulas do curso **Introdução aos Testes Automatizados: Desvendando o Poder da Automação** na Infoeste 2024.
 
-## Descrição
+## Visão Geral 📝
 
-Curso introdutório que visa principalmente aumentar o leque de conhecimento das pessoas participantes, trazendo assuntos relevantes que independem de ferramentas. O curso também prevê interação descontraída, educativa e interativa, promovendo o networking entre as pessoas participantes.
+Este repositório é destinado ao curso introdutório de testes automatizados, focado em expandir os conhecimentos das pessoas participantes com conceitos relevantes e independentes de ferramentas específicas. O curso é interativo, educativo e promove o networking entre participantes.
 
-### Conteúdo programático
+## Conteúdo Programático 📚
 
-- **1° Dia**: _(branch -> class-1)_
+- **1° Dia**: _(branch: `class-1`)_
   - Boas-vindas e apresentação do curso;
   - Conceitos de testes automatizados;
   - Introdução ao JavaScript para testes;
   - Configuração do ambiente de testes.
-- **2° Dia**: _(branch -> class-2)_
+  
+- **2° Dia**: _(branch: `class-2`)_
   - Entendendo a API a ser testada;
   - Conceitos de testes automatizados para API;
   - Escrevendo testes unitários.
-- **3° Dia**: _(branch -> class-3)_
+  
+- **3° Dia**: _(branch: `class-3`)_
   - Conceitos de testes automatizados para API (continuação);
   - Escrevendo testes de integração;
-  - Outros conceitos importantes.
+  - Cobertura de testes.
 
----
+## Organização das Branches 🌿
 
-## API
+- **`main`**: Configurações básicas do projeto e setup inicial.
+- **`class-1`**: Exercícios de introdução aos testes automatizados.
+- **`class-2`**: API com cadastro de usuários e testes de unidade.
+- **`class-3`**: API com testes de unidade e integração.
 
-### Organização das branches
+## Pré-requisitos 📋
 
-- `main`: Configurações básicas do projeto;
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-### Executando aplicação
+- **Node.js** (versão 18 ou superior)
+- **NPM** (gerenciador de pacotes do Node.js)
 
-- Escolha uma branch:
+## Instalação ⚙️
+
+Para instalar as dependências do projeto, siga estas etapas:
+
+1. Escolha a branch desejada:
+   ```bash
+   git checkout [nome-da-branch]
+   ```
+
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+
+## Executando a Aplicação ▶️
+
+Para iniciar o servidor Node.js, utilize o comando:
+
 ```bash
-  git checkout #branchName
+npm start
 ```
 
-- Instale as dependências:
+Ou, se preferir usar o **Nodemon** para reiniciar automaticamente a aplicação ao detectar mudanças:
+
 ```bash
-  npm i
+npm run dev
 ```
 
-- Suba o servidor Node.js:
+## Executando os Testes 🧪
+
+Para rodar todos os testes no projeto, execute:
+
 ```bash
-  npm start
+npm test
 ```
 
-ou
-```bash
-  npm run dev
-```
+## Contribuindo 🤝
 
+Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-- Para executar os testes, use o comando:
-```bash
-  npm test
-```
+## Contato 📬
+
+Para dúvidas ou feedback sobre o curso e este repositório, entre em contato com o instrutor através do e-mail: [viniciussouzav@gmail.com](mailto:viniciussouzav@gmail.com).
