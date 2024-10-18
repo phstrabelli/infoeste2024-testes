@@ -22,13 +22,13 @@ describe('CONTROLLER USER - Teste da função CREATE:', function () {
   });
 
   it('Deve-se cadastrar um usuário com sucesso', async function () {
-    const user = { id: 67, fullName: 'Vinicius Vasconcelos', nickname: 'VinD' };
-    sinon.stub(userService, 'create').resolves(user);
+    const output = { id: 67, fullName: 'Vinicius Vasconcelos', nickname: 'VinD' };
+    sinon.stub(userService, 'create').resolves(output);
 
     await userController.create(req, res, next);
 
     expect(res.status.calledWith(201)).to.be.true;
-    expect(res.json.calledWith(user)).to.be.true;
+    expect(res.json.calledWith(output)).to.be.true;
     expect(next.called).to.be.false;
   });
 

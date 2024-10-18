@@ -8,7 +8,7 @@ const { expect } = chai;
 chai.use(chaiHttp);
 
 describe('Teste de integração user - Teste do método POST na rota /user', function() {
-  it('Deve-se cadastrar um jogo com sucesso, quando passado um body válido', async function() {
+  it('Deve-se cadastrar um usuário com sucesso, quando passado um body válido', async function() {
     const body = { fullName: 'Ronaldo Nazário', nickname: 'theBest9' };
     const output = { id: 67, fullName: 'Ronaldo Nazário', nickname: 'theBest9' }
     sinon.stub(connection, 'execute').resolves([{ insertId: 67 }]);
