@@ -1,39 +1,65 @@
-# INFOESTE 2024
 
-Repositório criado para ministrar aulas no curso de *Introdução aos Testes Automatizados: Desvendando o Poder da Automação* na Infoeste 2024.
+# INFOESTE 2024 🚀
 
-## API
+Repositório para as aulas do curso **Introdução aos Testes Automatizados: Desvendando o Poder da Automação** na Infoeste 2024.
 
-### Organização das branches
+## Visão Geral 📝
 
-- `class-2`: API com cadastro e listagem de _users_ e seus respctivos testes de unidade.
+Este repositório contém uma API com funcionalidades de cadastro e listagem de usuários, incluindo testes de unidade para garantir a qualidade do código.
 
-### Executando aplicação
+## Organização das Branches 🌿
 
-- Instale as dependências:
-```bash
-  npm i
-```
+- **`class-2`**: API com cadastro e listagem de usuários, acompanhada de testes de unidade.
 
-- Suba o servidor Node.js:
-```bash
-  npm start
-```
+## Pré-requisitos 📋
 
-- ou para subir com Nodemon:
+Certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
 
-```bash
-  npm run dev
-```
+- **Node.js** (versão 18 ou superior)
+- **NPM** (gerenciador de pacotes do Node.js)
 
+## Instalação ⚙️
 
-- Para executar os testes, use o comando:
-```bash
-  npm test
-```
-
-- ou para executar apenas os testes de unidade:
+Para instalar as dependências do projeto, execute o comando abaixo:
 
 ```bash
-  npm run test:unit
+npm install
 ```
+
+## Executando a Aplicação ▶️
+
+Para iniciar o servidor Node.js, use:
+
+```bash
+npm start
+```
+
+Ou, se preferir usar o **Nodemon** para reiniciar automaticamente a aplicação quando houver alterações:
+
+```bash
+npm run dev
+```
+
+## Executando os Testes 🧪
+
+Para rodar todos os testes, execute:
+
+```bash
+npm test
+```
+
+### Executando Testes de Unidade ✅
+
+Se quiser executar apenas os testes de unidade, utilize o comando:
+
+```bash
+npm run test:unit
+```
+
+## Contribuindo 🤝
+
+Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Contato 📬
+
+Para dúvidas ou feedback sobre o curso e este repositório, entre em contato com o instrutor através do e-mail: [viniciussouzav@gmail.com](mailto:viniciussouzav@gmail.com).
