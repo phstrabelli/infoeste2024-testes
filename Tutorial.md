@@ -2,9 +2,11 @@
 
 Boas-vindas ao **Tutorial de Testes Automatizados**! Este guia complementa o curso **Introdução aos Testes Automatizados: Desvendando o Poder da Automação**. Aqui, você encontrará tudo o que precisa para implementar testes automatizados em projetos Node.js utilizando Mocha e Chai.
 
+> _👀 **Observação**: Para projetos mais antigos, verifique a compatibilidade das versões das dependências!_
+
 ## Visão Geral do Tutorial 📚
 
-Neste tutorial, você irá ver sobre:
+O que iremos ver:
 - Instalação das dependências necessárias;
 - Configuração dos scripts de teste de forma prática;
 - O que são e como utilizar os blocos `describe` e `it` em seus testes.
@@ -16,8 +18,6 @@ Para começar, vamos instalar o **Mocha** e o **Chai**! Execute o comando abaixo
 ```bash
 npm install mocha chai -D
 ```
-
-> _👀 **Observação**: Para projetos mais antigos, verifique a compatibilidade das versões das dependências!_
 
 ## 2. Configuração dos Scripts de Teste 📋
 
@@ -47,7 +47,7 @@ O bloco `describe` agrupa testes relacionados. Use-o para descrever o que está 
 
 ```javascript
 describe('Teste da função XYZ', () => {
-  // local para seus testes 'it'
+  // espaço para seus testes 'it'
 });
 ```
 
@@ -58,14 +58,14 @@ O bloco `it` define testes individuais. Veja como utilizá-lo na prática:
 ```javascript
 describe('Teste da função XYZ', () => {
   it('deve retornar o resultado esperado', () => {
-    // local para asserções
+    // espaço para asserções
   });
 });
 ```
 
 ### 3.3 Usando Chai para Asserções
 
-**Chai** permite que você verifique se seu código está funcionando como esperado. Aqui, utilizaremos o estilo `expect`:
+O **Chai** permite que você verifique se seu código está funcionando como esperado. Aqui, utilizaremos o estilo `expect`:
 
 ```javascript
 import { expect } from 'chai';
