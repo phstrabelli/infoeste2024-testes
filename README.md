@@ -72,6 +72,10 @@ Para gerar um relatório de cobertura de testes, execute:
 npm run coverage
 ```
 
+## Tutorial 📚
+
+Para um guia detalhado sobre como implementar testes automatizados utilizando Mocha, Chai, Sinon e chai-http consulte o [Tutorial.md](Tutorial.md). Este tutorial aborda desde a instalação das dependências até a criação de testes estruturados.
+
 ## Contribuindo 🤝
 
 Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
