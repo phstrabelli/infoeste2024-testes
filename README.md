@@ -58,7 +58,11 @@ npm run test:unit
 
 ## Tutorial 📚
 
-Para um guia detalhado sobre como implementar testes automatizados utilizando Mocha, Chai e Sinon, consulte o [Tutorial.md](Tutorial.md). Este tutorial aborda desde a instalação das dependências até a criação de testes estruturados.
+Para um guia detalhado sobre como implementar testes automatizados utilizando Mocha, Chai e Sinon consulte o [Tutorial.md](Tutorial.md). Este tutorial aborda desde a instalação das dependências até a criação de testes estruturados.
+
+## Bônus: Cobertura de Testes 🎉 📊
+
+Quer entender como garantir que cada parte do seu código seja testada? Venha explorar o nosso guia de **Cobertura de Testes com NYC**! Acesse o [Bônus.md](Bônus.md) para descobrir como o NYC ajuda a mapear quais partes do código foram testadas e quais ainda precisam de atenção. Com ele, você verá desde a configuração básica até como interpretar os relatórios.
 
 ## Contribuindo 🤝
 
