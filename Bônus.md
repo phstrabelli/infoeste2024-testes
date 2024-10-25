@@ -17,7 +17,7 @@ Cobertura de testes refere-se à prática de mensurar quanto do seu código (est
 
 ## 2. Instalação e Configuração do NYC ⚙️
 
-O NYC é uma ferramenta...
+O NYC é uma ferramenta de cobertura de testes que mede a quantidade de código testado e gera relatórios detalhados.
 
 ### 2.1 Instalando o NYC
 
