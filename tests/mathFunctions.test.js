@@ -32,7 +32,7 @@ describe('Teste na função DIV: ', () => {
   })
 })
 
-describe('Teste na função DIV: ', () => {
+describe('Teste na função MUL: ', () => {
   it('deve retornar a multiplicação de dois números', () => {
     const result = mul(2,3)
     expect(result).to.equal(6)

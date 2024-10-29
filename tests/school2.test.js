@@ -32,7 +32,7 @@ describe('Teste na funçãp evaluateStudent', () => {
         expect(result).to.equal('Retained')
     })
 
-    it.only('deve retornar Approved ao digitar uma string para nome e digitar notas positivas com media acima de 6 (7,8)', () => {
+    it('deve retornar Approved ao digitar uma string para nome e digitar notas positivas com media acima de 6 (7,8)', () => {
         const result = evaluateStudent('Pedro',7,8)
         expect(result).to.equal('Approved')
     })
