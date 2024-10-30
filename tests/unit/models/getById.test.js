@@ -7,17 +7,21 @@ describe('Model user - Teste da função getById: ', () => {
     it('Deve-se achar um usuário com sucesso', async () => {
         const input = 67
         const output = { 
-            id: 67,
+            insertId: 67,
             fullName: 'Pedro Henrique Trevisi',
             nickname: 'Botelho',
         }
 
 
 
-        sinon.stub(conn , 'execute').resolves([{ insertId:67 }])
+        sinon.stub(conn , 'execute').resolves([[{ 
+            insertId:67,
+            fullName: 'Pedro Henrique Trevisi',
+            nickname: 'Botelho'
+         }]])
 
         const result = await model.getById(input)
-        expect(result).to.be.equal(67) 
+        expect(result).to.deep.equal(output) 
 
         sinon.restore() //para ter mais stubs, restaurando
 
