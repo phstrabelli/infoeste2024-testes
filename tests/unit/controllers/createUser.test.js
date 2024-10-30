@@ -35,10 +35,22 @@ describe('Controller user - Teste da função create', () => {
         }
 
         sinon.stub(services, 'create').resolves(output)
-
+        
         await controller.create(req,res,next)
-
+        
         expect(res.status.calledWith(201)).to.be.true
         expect(res.json.calledWith(output)).to.be.true
     })
+    
+    it('Deve-se chamar o next em caso de falha: ', async () => {
+        const error = new Error('Erro ao cadastrar usuário')
+        
+        sinon.stub(services, 'create').rejects(error)
+
+        await controller.create(req,res,next)
+        
+        expect(next.calledWith(error)).to.be.true
+    })
 })
+
+//rejects == resolves só q para erros

@@ -8,7 +8,8 @@
     "dev": "nodemon src/server.js",
     "test": "npm run test:unit && npm run test:integration --exit",
     "test:unit": "mocha ./tests/unit/**/*.test.js --exit",
-    "test:integration": "mocha ./tests/integration/**/*.test.js --exit"
+    "test:integration": "mocha ./tests/integration/**/*.test.js --exit",
+    "cover":  "nyc npm test"
   },
   "repository": {
     "type": "git",
@@ -30,7 +31,7 @@
     "dotenv": "^16.4.5",
     "mocha": "10.1.0",
     "nodemon": "3.1.7",
-    "nyc": "15.1.0",
+    "nyc": "^15.1.0",
     "sinon": "14.0.1"
   }
 }
